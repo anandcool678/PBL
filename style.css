@@ -4,6 +4,8 @@ body{
 .navbar {
     
     overflow: hidden;
+    margin-bottom: 80px;
+    background-color: sandybrown;
   }
   
   /* Style the links inside the navigation bar */
@@ -28,4 +30,23 @@ body{
   .navbar a.active {
     background-color: #04AA6D;
     color: white;
+  }
+  .image{
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+  }
+  .box{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 15px;
+    margin-top: 75px;
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  .firstBlock{
+    display: flex;
+    margin-inline: 25px;
+    margin: 100px;
   }
