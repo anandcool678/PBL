@@ -48,5 +48,14 @@ body{
   .firstBlock{
     display: flex;
     margin-inline: 25px;
-    margin: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .loanBox{
+    background-color: yellow;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .loanBox a:hover{
+    background-color: blue;
   }
