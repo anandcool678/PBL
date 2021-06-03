@@ -42,11 +42,15 @@ body{
     background-color: red;
     border-radius: 15px;
     /* margin-top: 75px; */
-    margin-left: 40px;
+    margin-left: 20px;
+    padding: 20px;
     font-size: 20px;
   }
   .firstBlock{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-direction: column; */
     margin-inline: 25px;
     align-items: center;
     justify-content: center;
@@ -81,4 +85,88 @@ body{
     width: 140px; */
     /* background-color: blue; */
   }
+  /* @media (max-width: 800px){
+    .firstBlock{
+      flex-direction: column; !important
+      padding: 10px;
+      background-color: blue;
+    }
+    .box{
+      background-color: blue;
+    }
+  } */
 /* --------------work of 31 may--------------------- */
+ .secondBlock{ 
+   display: flex;
+   flex: auto;
+   margin: 80px;
+
+  padding: 30px 15px;
+   
+} 
+  .howToApply{
+    
+    
+    height: 600px;
+    width: 500px;
+    padding: 30px 15px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    /* margin-left: 200px; */
+  }
+  .howToApply h4 {
+    position: relative;
+    font-size: 18px;
+    color: #f15921;
+    font-family: Roboto-Black;
+    padding-bottom: 10px;
+}
+
+.howToApply p {
+    position: relative;
+    font-size: 12px;
+    color: #7C7C7C;
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.howToApply .table li:not(:last-child) {
+  float: left;
+}
+
+.howToApply .table li img {
+  float: left;
+  /* text-align: left;
+margin-right: 28px; */
+}
+
+.howToApply .table li h5 {
+  font-size: 16px;
+  margin-top: 23px;
+  /* text-align: right; */
+  font-weight: 700;
+  /* width: 97%; */
+  margin-left: 180px;
+}
+
+.howToApply a {
+  font-size: 14px;
+  color: #c83e0c;
+  font-family: Roboto-Bold;
+  display: block;
+  text-align: right;
+  float: right;
+}
+  .table li h5{
+    font-size: 16px;
+    margin-top: 23px;
+    margin-right: 105px;
+    /* text-align: right; */
+    font-weight: 700;
+    /* width: 97%; */
+    margin-left: 180px;
+  }
+  .list-inline li:not(:last-child) {
+    float: left;
+}
+/* -------------------2 june 2021 ---------------------*/
