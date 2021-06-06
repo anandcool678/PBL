@@ -2,7 +2,6 @@ body{
     background-color:#f2f2f2;
 }
 .navbar {
-    
     overflow: hidden;
     margin-bottom: 80px;
     background-color: sandybrown;
@@ -100,13 +99,11 @@ body{
    display: flex;
    flex: auto;
    margin: 80px;
-
   padding: 30px 15px;
    
 } 
   .howToApply{
-    
-    
+    /* margin-left: 30px; */
     height: 600px;
     width: 500px;
     padding: 30px 15px;
@@ -120,8 +117,10 @@ body{
     color: #f15921;
     font-family: Roboto-Black;
     padding-bottom: 10px;
-}
-
+  }
+  .table{
+    list-style-type: none;
+  }
 .howToApply p {
     position: relative;
     font-size: 12px;
@@ -150,7 +149,7 @@ margin-right: 28px; */
 }
 
 .howToApply a {
-  font-size: 14px;
+  font-size: 19px;
   color: #c83e0c;
   font-family: Roboto-Bold;
   display: block;
@@ -170,3 +169,94 @@ margin-right: 28px; */
     float: left;
 }
 /* -------------------2 june 2021 ---------------------*/
+/* fact slides css */
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #7e6868f1;
+  height: 300px;
+  margin-left: 100px;
+  border-radius: 15px;
+  /* padding: 15px 15px; */
+}
+.factBoxHeader{
+  font-size: 32px;
+  margin-top: 6px;
+  margin-bottom: -3px;
+  margin-left: 210px;
+}
+/* Slides */
+.mySlides {
+  width: 300px;
+  height: 300px;
+  display: none;
+  padding: 80px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-left: 0px;
+  /* margin-top: 30px; */
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.textFact{
+  margin-left: -60px;
+}
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  /* margin-left: 0px; */
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+/* .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+} */
+
+/* The dots/bullets/indicators */
+/* .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+/* Add a background color to the active dot/circle */
+/* .active, .dot:hover {
+  background-color: #717171;
+} */
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/* fact slides css end */
+/* ----------------------------6 june------------------------------- */
