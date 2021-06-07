@@ -205,6 +205,7 @@ margin-right: 28px; */
   /* margin-top: 30px; */
   padding: 16px;
   color: #888;
+  height:auto;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -229,14 +230,15 @@ margin-right: 28px; */
 }
 
 /* The dot/bullet/indicator container */
-/* .dot-container {
-    text-align: center;
+ .dot-container { 
+   display: none;
+       text-align: center;
     padding: 20px;
     background: #ddd;
-} */
+} 
 
 /* The dots/bullets/indicators */
-/* .dot {
+.dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -245,12 +247,12 @@ margin-right: 28px; */
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-} */
+}
 
 /* Add a background color to the active dot/circle */
-/* .active, .dot:hover {
+.active, .dot:hover {
   background-color: #717171;
-} */
+}
 
 /* Add an italic font style to all quotes */
 q {font-style: italic;}
