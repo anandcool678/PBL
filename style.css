@@ -4,7 +4,7 @@ body{
 .navbar {
     overflow: hidden;
     margin-bottom: 80px;
-    background-color: sandybrown;
+    background-color: rgb(228, 137, 137);
   }
   
   /* Style the links inside the navigation bar */
@@ -16,7 +16,7 @@ body{
     margin-right: 16px;
     text-decoration: none;
     font-size: 17px;
-    background-color: #04AA6D;
+    /* background-color: #94fa80; */
   }
   
   /* Change the color of links on hover */
@@ -27,7 +27,7 @@ body{
   
   /* Add a color to the active/current link */
   .navbar a.active {
-    background-color: #04AA6D;
+    /* background-color: #04AA6D; */
     color: white;
   }
   .navbar image{
@@ -41,7 +41,7 @@ body{
   .box{
     height: 150px;
     width: 150px;
-    background-color: red;
+    background-color: cornsilk;
     border-radius: 15px;
     /* margin-top: 75px; */
     margin-left: 20px;

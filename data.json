@@ -1,0 +1,55 @@
+﻿[
+    {
+        "Timestamp": "2021/05/31 9:24:37 PM GMT+5:30",
+        "Aadhar": "125496464964797",
+        "Name": "C Tanush",
+        "Phone No. :": "2365362536",
+        "Name of Bank:": "SBI",
+        "Account No.": "20468470588158",
+        "IFSC Code:": "SBI00008587",
+        "Type of Business:": "Vegetables and Fruits"
+    },
+    {
+        "Timestamp": "2021/05/31 9:29:04 PM GMT+5:30",
+        "Aadhar": "708443368741",
+        "Name": "Dasari Hema Sree",
+        "Phone No. :": "8978397390",
+        "Name of Bank:": "State bank of india",
+        "Account No.": "536281910",
+        "IFSC Code:": "SBIH0035272",
+        "Type of Business:": "Anything else"
+    },
+    {
+        "Timestamp": "2021/05/31 9:35:54 PM GMT+5:30",
+        "Aadhar": "787026806948",
+        "Name": "C Tanush",
+        "Date of Birth :": "1988-05-31",
+        "Phone No. :": "8563955668",
+        "Name of Bank:": "SBI",
+        "Account No.": "2020455288888",
+        "IFSC Code:": "SBI00005689",
+        "Type of Business:": "Vegetables and Fruits"
+    },
+    {
+        "Timestamp": "2021/05/31 10:05:29 PM GMT+5:30",
+        "Aadhar": "765843885844",
+        "Name": "Pramod Jyani",
+        "Date of Birth :": "2002-01-09",
+        "Phone No. :": "07375026275",
+        "Name of Bank:": "Pramod Jyani",
+        "Account No.": "43497944346431949",
+        "IFSC Code:": "Nxhxhdnd",
+        "Type of Business:": "Anything else"
+    },
+    {
+        "Timestamp": "2021/06/10 10:30:27 PM GMT+5:30",
+        "Aadhar": "392548075813",
+        "Name": "Anand Prakash Dwivedi",
+        "Date of Birth :": "2001-11-20",
+        "Phone No. :": "7651955200",
+        "Name of Bank:": "ICICI Bank",
+        "Account No.": "23545684234",
+        "IFSC Code:": "ICICI04572",
+        "Type of Business:": "Grocery"
+    }
+]
