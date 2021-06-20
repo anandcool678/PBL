@@ -22,14 +22,16 @@ body{
   
   /* Change the color of links on hover */
   .navbar a:hover {
-    background-color: #ddd;
+    background-color:#ddd;
     color: black;
+    border-radius: 50px;
   }
   
   /* Add a color to the active/current link */
   .navbar a.active {
     /* background-color: #04AA6D; */
     color: white;
+    border-radius: 50px;
   }
   .navbar image{
     margin-left: 100px;
